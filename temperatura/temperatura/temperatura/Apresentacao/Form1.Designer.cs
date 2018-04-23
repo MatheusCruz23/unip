@@ -47,15 +47,15 @@
             // 
             // txbTemperatura
             // 
-            this.txbTemperatura.Location = new System.Drawing.Point(31, 40);
+            this.txbTemperatura.Location = new System.Drawing.Point(31, 49);
             this.txbTemperatura.Name = "txbTemperatura";
-            this.txbTemperatura.Size = new System.Drawing.Size(100, 20);
+            this.txbTemperatura.Size = new System.Drawing.Size(241, 20);
             this.txbTemperatura.TabIndex = 1;
             // 
             // rdbCF
             // 
             this.rdbCF.AutoSize = true;
-            this.rdbCF.Location = new System.Drawing.Point(31, 85);
+            this.rdbCF.Location = new System.Drawing.Point(31, 93);
             this.rdbCF.Name = "rdbCF";
             this.rdbCF.Size = new System.Drawing.Size(117, 17);
             this.rdbCF.TabIndex = 2;
@@ -68,19 +68,19 @@
             this.rdbFC.AutoSize = true;
             this.rdbFC.Location = new System.Drawing.Point(31, 125);
             this.rdbFC.Name = "rdbFC";
-            this.rdbFC.Size = new System.Drawing.Size(85, 17);
+            this.rdbFC.Size = new System.Drawing.Size(117, 17);
             this.rdbFC.TabIndex = 3;
             this.rdbFC.TabStop = true;
-            this.rdbFC.Text = "radioButton2";
+            this.rdbFC.Text = "Fahrenheit - Celsius";
             this.rdbFC.UseVisualStyleBackColor = true;
             // 
             // btnCalcular
             // 
             this.btnCalcular.Location = new System.Drawing.Point(31, 172);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.Size = new System.Drawing.Size(241, 23);
             this.btnCalcular.TabIndex = 4;
-            this.btnCalcular.Text = "button1";
+            this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -89,9 +89,9 @@
             this.lblResultado.AutoSize = true;
             this.lblResultado.Location = new System.Drawing.Point(31, 216);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(35, 13);
+            this.lblResultado.Size = new System.Drawing.Size(52, 13);
             this.lblResultado.TabIndex = 5;
-            this.lblResultado.Text = "label2";
+            this.lblResultado.Text = "Resposta";
             // 
             // Form1
             // 
